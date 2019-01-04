@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+svg, img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  pointer-events: none;
+}
+
+
+.huge-side {
+  min-height: 100vh
+}
+
+.left-side {
+  background: #eee;
+  margin-left: -15px;
+  padding: 120px 70px 30px;
+}
+
+.left-side .huge-content {
+  color: #fff;
+  min-height: 100vh;
+}
+
+.left-side .avatar {
+  margin-bottom: 33px;
+  border-radius: 50%;
+}
+
+.left-side .social-icons {
+  position: absolute;
+  bottom: 30px;
+  padding: 0;
+}
+
+.left-side .social-icons li {
+  display: inline-block;
+  float: left;
+  margin-right: 20px;
+}
+
+.left-side .social-icons li:last-child {
+  margin-right: 0;
+}
+
+.left-side .social-icons li a {
+  color: #fff;
+}
+
+.left-side .social-icons li a:hover {
+  opacity: .8;
+}
+
+.right-side {
+  margin: 0;
+  padding: 0;
+}
+
+.right-side .huge-background-img {
+  height: 100vh;
+  background: #ECF3F7;
+  position: relative;
+}
