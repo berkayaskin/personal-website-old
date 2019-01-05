@@ -1038,57 +1038,6 @@ h2.menu-item:after {
     font-size: 3rem;
 }
 
-/* #express-109 {
-    margin-right: 15px;
-} */
-
-/* #mongodb {
-    margin-right: 15px;
-} */
-
-.progress {
-    height: 2px;
-    margin-bottom: 30px;
-    background-color: #ddd;
-    border-radius: 0;
-    box-shadow: none;
-    overflow: visible;
-    width: 90%;
-}
-
-.progress-bar {
-    height: 2px;
-    line-height: 8px;
-    background-color: #666;
-    box-shadow: none;
-    position: relative;
-}
-
-.progress-bar span {
-    display: block;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
-    text-align: center;
-    color: #000;
-    background: #f1f3f6;
-    font-weight: 500;
-    position: absolute;
-    top: -16px;
-    right: -20px;
-    border-radius: 12px;
-}
-
-.progress-bar-label {
-    color: #333;
-    font-weight: 500;
-    margin-bottom: 10px;
-}
-
-.progress-bar-label span {
-    font-weight: 300;
-}
-
 .icon-list li {
     padding-left: 25px;
 }
@@ -1233,30 +1182,6 @@ h2.menu-item:after {
     stroke-dashoffset: 0;
 }
 
-.service {
-    padding-top: 25px;
-}
-
-.service h4 {
-    margin: 10px 0;
-    font-size: 14px;
-    font-weight: 700;
-}
-
-.service-icon {
-    font-size: 30px;
-    margin-bottom: 10px;
-    color: #666;
-}
-
-.service-icon img {
-    height: 32px;
-}
-
-.clients {
-    padding: 30px;
-}
-
 /*-------------------------------------------------------------------
 
                         7. PORTFOLIO BLOCK
@@ -1302,39 +1227,6 @@ h2.menu-item:after {
 .portfolio-container {
     overflow: hidden;
     position: relative;
-}
-
-.filters {
-    padding-bottom: 30px;
-}
-
-.filters span {
-    display: inline-block;
-    margin-right: 15px;
-}
-
-.filters ul {
-    display: inline-block;
-    margin: 20px 0;
-}
-
-.filters ul li {
-    font-weight: 500;
-    display: inline-block;
-    margin-left: 15px;
-    padding: 2px 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.filters ul li.active,
-.filters ul li:hover {
-    color: #000;
-    border-bottom: solid 2px #000;
-}
-
-.filters ul li:first-child {
-    margin-left: 0;
 }
 
 .portfolio-item {

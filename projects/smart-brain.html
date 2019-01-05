@@ -1,23 +1,42 @@
 <!DOCTYPE html>
-<html lang="en" >
-<head>
-	<meta charset="UTF-8">
-	<title>Berkay Askin - Projects</title>
-	<meta name="apple-mobile-web-app-capable" content="yes" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-	<meta name="description" content="TThe most powerful CV / RESUME">
-	<meta name="keywords" content="Berkay Askin, CV, projects, web developer, full stack developer">
-	<link href="../images/favicon-haze.png" rel="shortcut icon" type="image/x-icon">
-	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/plugins.min.css" type="text/css" media="screen" />
-    <link rel="stylesheet" href="../css/font-awesome.min.css">
-    <link rel="stylesheet" href="../css/ionicons.min.css">
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/default-skin/default-skin.css">
-    <link rel="stylesheet" href="../css/photoswipe.css">
-	<link rel="stylesheet" href="../css/style.css">
-</head>
-<body>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Berkay Askin - Projects</title>
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        />
+        <meta name="description" content="Full Stack Developer" />
+        <meta
+            name="keywords"
+            content="Berkay Askin, CV, projects, web developer, full stack developer"
+        />
+        <link
+            href="../images/favicon-haze.png"
+            rel="shortcut icon"
+            type="image/x-icon"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <link
+            rel="stylesheet"
+            href="../css/plugins.min.css"
+            type="text/css"
+            media="screen"
+        />
+        <link rel="stylesheet" href="../css/font-awesome.min.css" />
+        <link rel="stylesheet" href="../css/ionicons.min.css" />
+        <link rel="stylesheet" href="../css/bootstrap.min.css" />
+        <link rel="stylesheet" href="../css/default-skin/default-skin.css" />
+        <link rel="stylesheet" href="../css/photoswipe.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+    </head>
+    <body>
         <div class="preloader"><div class="preloader-circle"></div></div>
         <div class="container-fluid">
             <div class="row">
@@ -35,7 +54,7 @@
                         </div>
                         <h1>Berkay Askin</h1>
                         <h2>Full Stack Developer</h2>
-                        <a target="_blank" href="#" class="btn btn-download"
+                        <a target="_blank" href="../resume.pdf" class="btn btn-download"
                             >Download Resume</a
                         >
 
@@ -92,9 +111,9 @@
                         <h3 class="title">
                             <a
                                 target="_blank"
-                                href="http://berkayaskin.com/"
+                                href="https://smart-brain-master.herokuapp.com/"
                             >
-                                Personal Portfolio 
+                                Smart Brain
                                 <i
                                     class="fa fa-link"
                                     id="heading-external"
@@ -103,12 +122,22 @@
                             </a>
                         </h3>
                         <p>
-                            This is my last project which is a static personal portfolio website which is static for now but I am planning to add NodeJS with ExpressJS to backend and move the frontend to React, soon. In my opinion, personal website is an essential digital alternative to paper CV and also is a must for a web developer. 
+                            Smart Brain is a web application created with React.
+                            It uses a machine learning API called Clarifai to
+                            detect faces in images submitted via an input form.
+                            It utilizes a database to store users and ranks them
+                            according to the amount of images submitted for face
+                            detection.
                         </p>
-                        <h5 class="title">Technologies</h3>
-                        <p>HTML5, CSS3, Bootstrap, Javascript, JQuery, Three.js</p>
+                        <h5 class="title">Features</h3>
+                            <ul>
+                                <li>Adding Images to Detect Faces</li>
+                                <li>User Profiles with Ranks</li>
+                                <li>User Authentication</li>
+                            </ul>
+                            <h5 class="title">Technologies</h3>
+                            <p>HTML5, CSS3, Tachyons, Javascript, ReactJS, Clarifai API, NodeJS, Bcrypt.js, ExpressJS, PostgreSQL 
                     </section>
-
                     <div class="content-blocks portfolio">
                         <section class="content">
                             <div class="block-content">
@@ -129,15 +158,15 @@
                                                     itemtype="http://schema.org/ImageObject"
                                                 >
                                                     <a
-                                                        href="../../images/portfolio/resume-landing.png"
+                                                        href="../images/portfolio/smart-brain-img1.png"
                                                         itemprop="contentUrl"
-                                                        data-size="2000x1109"
+                                                        data-size="1200x1527"
                                                     >
                                                         <div
-                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item"
+                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item artwork"
                                                         >
                                                             <img
-                                                                src="../images/portfolio/resume-landing.png"
+                                                                src="../images/portfolio/smart-brain-img1.png"
                                                                 itemprop="thumbnail"
                                                                 alt="Image description"
                                                             />
@@ -146,7 +175,7 @@
                                                     <figcaption
                                                         itemprop="caption description"
                                                     >
-                                                        Landing Page
+                                                        Detecting Faces
                                                     </figcaption>
                                                 </figure>
 
@@ -156,15 +185,15 @@
                                                     itemtype="http://schema.org/ImageObject"
                                                 >
                                                     <a
-                                                        href="../images/portfolio/resume-about.png"
+                                                        href="../images/portfolio/smart-brain-register.png"
                                                         itemprop="contentUrl"
-                                                        data-size="2000x1109"
+                                                        data-size="2000x1139"
                                                     >
                                                         <div
-                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item"
+                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item artwork"
                                                         >
                                                             <img
-                                                                src="../images/portfolio/resume-about.png"
+                                                                src="../images/portfolio/smart-brain-register.png"
                                                                 itemprop="thumbnail"
                                                                 alt="Image description"
                                                             />
@@ -173,7 +202,7 @@
                                                     <figcaption
                                                         itemprop="caption description"
                                                     >
-                                                        About Section
+                                                        Register Page
                                                     </figcaption>
                                                 </figure>
 
@@ -183,15 +212,15 @@
                                                     itemtype="http://schema.org/ImageObject"
                                                 >
                                                     <a
-                                                        href="../images/portfolio/resume-work.png"
+                                                        href="../images/portfolio/smart-brain-signin.png"
                                                         itemprop="contentUrl"
-                                                        data-size="2000x1109"
+                                                        data-size="2000x1139"
                                                     >
                                                         <div
-                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item"
+                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item artwork"
                                                         >
                                                             <img
-                                                                src="../images/portfolio/resume-work.png"
+                                                                src="../images/portfolio/smart-brain-signin.png"
                                                                 itemprop="thumbnail"
                                                                 alt="Image description"
                                                             />
@@ -200,7 +229,7 @@
                                                     <figcaption
                                                         itemprop="caption description"
                                                     >
-                                                        Work Experiences
+                                                       Signin Page
                                                     </figcaption>
                                                 </figure>
 
@@ -210,15 +239,15 @@
                                                     itemtype="http://schema.org/ImageObject"
                                                 >
                                                     <a
-                                                        href="../images/portfolio/resume-projects.png"
+                                                        href="../images/portfolio/smart-brain-profile.png"
                                                         itemprop="contentUrl"
-                                                        data-size="2000x1109"
+                                                        data-size="2000x1139"
                                                     >
                                                         <div
-                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item"
+                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item artwork"
                                                         >
                                                             <img
-                                                                src="../images/portfolio/resume-projects.png"
+                                                                src="../images/portfolio/smart-brain-profile.png"
                                                                 itemprop="thumbnail"
                                                                 alt="Image description"
                                                             />
@@ -227,7 +256,7 @@
                                                     <figcaption
                                                         itemprop="caption description"
                                                     >
-                                                        Project Details
+                                                        Profile Page
                                                     </figcaption>
                                                 </figure>
 
@@ -237,15 +266,15 @@
                                                     itemtype="http://schema.org/ImageObject"
                                                 >
                                                     <a
-                                                        href="../images/portfolio/resume-contact.png"
+                                                        href="../images/portfolio/smart-brain-detection.png"
                                                         itemprop="contentUrl"
-                                                        data-size="2000x1109"
+                                                        data-size="2000x1139"
                                                     >
                                                         <div
-                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item"
+                                                            class="col-md-6 col-sm-6 col-xs-12 portfolio-item artwork"
                                                         >
                                                             <img
-                                                                src="../images/portfolio/resume-contact.png"
+                                                                src="../images/portfolio/smart-brain-detection.png"
                                                                 itemprop="thumbnail"
                                                                 alt="Image description"
                                                             />
@@ -254,7 +283,7 @@
                                                     <figcaption
                                                         itemprop="caption description"
                                                     >
-                                                        Contact Form
+                                                        Profile Page with Face Detection
                                                     </figcaption>
                                                 </figure>
                                             </div>
