@@ -99,21 +99,21 @@ h6 {
 }
 
 h1 {
-    font-size: 42px;
-    line-height: 60px;
+    font-size: 30px;
+    line-height: 50px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 h3 {
-    font-size: 20px;
+    font-size: 16px;
     line-height: 26px;
     margin-top: 0;
     margin-bottom: 0;
@@ -121,28 +121,28 @@ h3 {
 }
 
 h4 {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 24px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 h5 {
-    font-size: 15px;
+    font-size: 14px;
     line-height: 32px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 h6 {
-    font-size: 14px;
+    font-size: 12px;
     line-height: 32px;
     font-weight: 500;
 }
 
 p {
     margin: 0;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 ul {
@@ -737,7 +737,7 @@ h2.menu-item:after {
 
 .content {
     position: relative;
-    padding: 120px 70px 30px;
+    padding: 120px 70px 10px;
     height: auto;
     overflow: hidden;
 }
@@ -763,7 +763,7 @@ h2.menu-item:after {
 }
 
 .block-content {
-    margin: 0 0 70px;
+    margin: 0 0 60px;
     overflow: hidden;
 }
 
@@ -773,7 +773,7 @@ h2.menu-item:after {
     color: #333;
     padding-bottom: 15px;
     border-bottom: 1px solid #ddd;
-    margin-bottom: 30px;
+    margin-bottom: 15px;
     font-weight: 600;
     -webkit-text-fill-color: transparent !important;
     -webkit-background-clip: text !important;
@@ -991,17 +991,6 @@ h2.menu-item:after {
     text-transform: none;
 }
 
-/* .link {
-    font-style: italic;
-    font-weight: bold;
-    padding: 0 3px;
-} */
-
-/* .signature {
-    margin: 30px 0;
-    height: 44px;
-} */
-
 .info-list {
     /* border-bottom: 1px solid #ddd; */
     border-top: 1px solid #ddd;
@@ -1088,7 +1077,7 @@ h2.menu-item:after {
 }
 
 .exp {
-    padding: 20px 20px 0 60px;
+    padding: 10px 20px 0 60px;
     position: relative;
 }
 
@@ -1106,7 +1095,7 @@ h2.menu-item:after {
 }
 
 .exp-holder {
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
 .exp .hgroup h4,
@@ -1114,7 +1103,6 @@ h2.menu-item:after {
     /* span added */
     display: inline-block;
     text-transform: none;
-    /* margin-bottom: 10px; */
     font-weight: 700;
 }
 

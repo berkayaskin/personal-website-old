@@ -46,7 +46,9 @@
                             <img
                                 class="avatar avatar-195"
                                 src="../images/avatar/avatar-195x195.png"
-                                srcset="../images/avatar/avatar-390x390-2x.png 2x"
+                                srcset="
+                                    ../images/avatar/avatar-390x390-2x.png 2x
+                                "
                                 width="195"
                                 height="195"
                                 alt=""
@@ -54,7 +56,10 @@
                         </div>
                         <h1>Berkay Askin</h1>
                         <h2>Full Stack Developer</h2>
-                        <a target="_blank" href="../resume.pdf" class="btn btn-download"
+                        <a
+                            target="_blank"
+                            href="../resume.pdf"
+                            class="btn btn-download"
                             >Download Resume</a
                         >
 
@@ -62,6 +67,7 @@
                             <li>
                                 <a
                                     href="https://www.facebook.com/berkayaskin"
+                                    target="_blank"
                                     class="social-icon"
                                 >
                                     <i
@@ -73,6 +79,7 @@
                             <li>
                                 <a
                                     href="https://www.twitter.com/berkayaskin"
+                                    target="_blank"
                                     class="social-icon"
                                 >
                                     <i
@@ -84,6 +91,7 @@
                             <li>
                                 <a
                                     href="https://www.linkedin.com/in/berkay-askin/"
+                                    target="_blank"
                                     class="social-icon"
                                 >
                                     <i
@@ -95,10 +103,24 @@
                             <li>
                                 <a
                                     href="https://www.instagram.com/berkayaskin/"
+                                    target="_blank"
                                     class="social-icon"
                                 >
                                     <i
                                         class="fa fa-instagram"
+                                        aria-hidden="true"
+                                    ></i>
+                                </a>
+                            </li>
+                            <li>
+                                <a
+                                    href="https://github.com/berkayaskin/smart-brain"
+                                    target="_blank"
+                                    title="Smart Brain Github"
+                                    class="social-icon"
+                                >
+                                    <i
+                                        class="fa fa-github"
                                         aria-hidden="true"
                                     ></i>
                                 </a>
@@ -110,8 +132,9 @@
                     <section class="content about">
                         <h3 class="title">
                             <a
-                                target="_blank"
                                 href="https://smart-brain-master.herokuapp.com/"
+                                target="_blank"
+                                title="https://smart-brain-master.herokuapp.com/"
                             >
                                 Smart Brain
                                 <i
@@ -129,15 +152,20 @@
                             according to the amount of images submitted for face
                             detection.
                         </p>
-                        <h5 class="title">Features</h3>
-                            <ul>
-                                <li>Adding Images to Detect Faces</li>
-                                <li>User Profiles with Ranks</li>
-                                <li>User Authentication</li>
-                            </ul>
-                            <h5 class="title">Technologies</h3>
-                            <p>HTML5, CSS3, Tachyons, Javascript, ReactJS, Clarifai API, NodeJS, Bcrypt.js, ExpressJS, PostgreSQL 
+                        <h3 class="title">Features</h3>
+                        <ul>
+                            <li>Adding Images to Detect Faces</li>
+                            <li>User Profiles with Ranks</li>
+                            <li>User Authentication</li>
+                        </ul>
+                        <br />
+                        <h3 class="title">Technologies</h3>
+                        <p>
+                            HTML5, CSS3, Tachyons, Javascript, ReactJS, Clarifai
+                            API, NodeJS, Bcrypt.js, ExpressJS, PostgreSQL
+                        </p>
                     </section>
+
                     <div class="content-blocks portfolio">
                         <section class="content">
                             <div class="block-content">
@@ -229,7 +257,7 @@
                                                     <figcaption
                                                         itemprop="caption description"
                                                     >
-                                                       Signin Page
+                                                        Signin Page
                                                     </figcaption>
                                                 </figure>
 
@@ -283,7 +311,8 @@
                                                     <figcaption
                                                         itemprop="caption description"
                                                     >
-                                                        Profile Page with Face Detection
+                                                        Profile Page with Face
+                                                        Detection
                                                     </figcaption>
                                                 </figure>
                                             </div>
