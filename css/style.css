@@ -252,7 +252,7 @@ a:not([href]):not([tabindex]) {
 	right: 0;
 	top: 0;
 	bottom: 0;
-	height: 160px;
+	height: min-content;
 	padding: 0;
 }
 
@@ -269,6 +269,7 @@ a:not([href]):not([tabindex]) {
 	color: #fff;
 	font-weight: 500;
 	font-size: 1.7em;
+	margin: 1vw;
 	font-family: "Montserrat", serif;
 }
 
